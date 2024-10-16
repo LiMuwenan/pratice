@@ -1,4 +1,11 @@
 {
+  "compilerOptions": {
+  /* 配置@路径 */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
